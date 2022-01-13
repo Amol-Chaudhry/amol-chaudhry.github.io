@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon AMOL-->
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href= "styles.css" />
+
+  <title>Amol Chaudhry</title>
+</head>
+<body>
+  <!-- Header -->
+  <header id="home" class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <h1>&lt;/amol&gt;<span></span></h1>
+        </div>
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <h1>&lt;/amol&gt;<span></span></h1>
+            </div>
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link scroll-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link scroll-link">Background</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link scroll-link">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a id = "getContact" style="border:2px solid #dd9a05; border-radius: 0.3rem;" href="#contact" class="nav-link scroll-link">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+        <script>
+          const tempVariable = document.getElementById("getContact");
+          window.addEventListener("scroll", function(){
+            if(window.scrollY > 100){
+              tempVariable.style.border = "2px solid #000";
+            }
+            else{
+              tempVariable.style.border = "2px solid #dd9a05";
+            }
+          });
+        </script>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero">
+      <h3>Hello, my name is</h3>
+      <h1>Amol Chaudhry</h1>
+      <h4>And I'm a <span id="type1"></span></h4>
+      <a href="#contact">Contact Me!</a>
+    </div>
+
+    <img class="banner" src="./images/bg.png" alt="" />
+
+  </header>
+
+  <!-- Main -->
+  <section class="section about" id="about">
+    <div class="title">
+      <h1>About me</h1>
+    </div>
+
+    <div class="about-center container">
+      <div class="left" data-aos="fade-right" data-aos-duration="2000">
+        <img src="./images/profile1.jpg" alt="" />
+      </div>
+      <div class="right" data-aos="fade-left" data-aos-duration="2000">
+        <h1>I'm Amol Chaudhry a <span id="type2"></span></h1>
+        <p>
+          I am currently a member of the graphics and image processing team 
+          of software developers at  <b style="color:#dd9a05">Quark Software Inc.</b> I feel elated to work on providing end-users with a premium software experience. 
+          I am enthusiastic to enhance my knowledge of Computer vision and Deep Learning.
+        </p>
+        <p>Pursuing a Master’s in Computer Science is something I intend to do soon.</p>
+        <p><b style="color:#dd9a05">I learn. I apply. I contribute.</b></p>
+        <!-- TODO : AMOL , ADD YOUR CV -->
+        <a href="https://github.com/Amol-Chaudhry/CV/blob/main/CV.pdf" class="btn" target="_Blank" download="newfilename">Download CV</a>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/amol-chaudhry/" style="color:inherit" target="_blank"><span><i class="fab fa-linkedin"></i></span></a>
+        <a href="https://github.com/Amol-Chaudhry" style="color:inherit" target="_blank"><span><i class="fab fa-github"></i></span></a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills" id="skills" style = "background-color: black;">
+    <div class="title">
+        <h1 style = "color: white;" >My Skills</h1>
+    </div>
+
+    <div class="services-center container">
+
+       <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/c-plus-plus-logo.png"/></span>
+          <h2>C++</h2>
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/c-programming.png"/></span>
+          <h2>C</h2>
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color-glass/480/000000/mac-os.png"/></span>
+          <h2>Objective-C</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/python--v1.png"/></span>
+          <h2>Python</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/html-5--v1.png"/></span>
+          <h2>HTML 5</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/css3.png"/></span>
+          <h2>CSS</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/javascript--v1.png"/></span>
+          <h2>JavaScript</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/angularjs.png"/></span>
+          <h2>Angular</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/office/80/000000/database.png"/></span>
+          <h2>SQL</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/mongodb.png"/></span>
+          <h2>MongoDB</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="https://img.icons8.com/color/480/000000/java-coffee-cup-logo.png"/></span>
+          <h2>Java</h2>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><img style = "height : 48px; width: 48px;" src="./images/matlab-logo.png"/></span>
+          <h2>MATLAB</h2>
+        </div>
+  </section>
+
+  <!-- <section class ="section experience" id="experience" style = "background-color: white;">
+    <div class="title">
+      <h1>Work Experience</h1>
+    </div>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content" style = "background-color: black; color:white">
+          <h2>Jan - Aug, 2020</h2>
+
+          <h3>Software Developer Intern</h3>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content" style = "background-color: black; color:white">
+          <h2>Software Engineer 1, R&D</h2>
+          <h2>Quark Software Inc.</h2>
+          <p style = "color: white;">Received above and beyond award</p>
+          <h3>Sep 2020 - Present</h3>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  
+  <section class="timeline" id="experience">
+
+    <div class="title">
+      <h1>Background</h1>
+    </div>
+
+    <div class="container">
+
+      <div class="timeline-item">
+  
+        <div class="timeline-img"></div>
+  
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header">
+            <h2>Software Engineer 1, R&D</h2>
+          </div>
+          <div class="date">SEP 2020 - PRESENT</div>
+          <p>Working with the Graphics and Image Processing team of QuarkXpress.</p>
+          <br>
+          <p>Developed features such as Embed Pictures and Stock Images Palette.</p>
+          <br>
+          <p>Received Above and Beyond Award.</p>
+          <a class="bnt-more" href="https://github.com/Amol-Chaudhry/above-and-beyond/blob/main/Certificate.jpg" target="_blank">Achievement</a>
+        </div>
+      </div>   
+  
+      <div class="timeline-item">
+  
+        <div class="timeline-img"></div>
+  
+        <div class="timeline-content timeline-card js--fadeInRight">
+          <div class="timeline-img-header"style = "background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('./images/QuarkNewLogo.png') center center no-repeat; background-size: contain;">
+            <h2>Software Engineer Intern, R&D</h2>
+          </div>
+          <div class="date">JAN - AUG 2020</div>
+          <p>C++ and Objective-C, Developer for Quark's flagship product, QuarkXpress.</p>
+          <br>
+          <p>Major goal was to add the feature of "Layout Bleed Lines".</p>
+          <a class="bnt-more" href="https://github.com/Amol-Chaudhry/training-certificate/blob/main/InternshipCertificate.pdf" target="_blank">Achievement</a>
+        </div>
+      </div>
+
+      <!-- <div class="timeline-item">
+
+        <div class="timeline-img"></div>
+  
+        <div class="timeline-content js--fadeInRight">
+          <br>
+          <h2>Software Engineer Intern</h2>
+          <div class="date">JAN - AUG 2020</div>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+          <a class="bnt-more" href="javascript:void(0)">More</a>
+        </div>
+      </div> -->
+
+      <div class="timeline-item">
+  
+        <div class="timeline-img"></div>
+  
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header" style = "background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('./images/ccetLogo.png') center center no-repeat; background-size: contain;">
+            <h2>Bachelor of Engineering</h2>
+          </div>
+          <div class="date">JULY 2016 - MAY 2020</div>
+          <p>Honours degree in Electronics and Communications Engineering.</p>
+          <br>
+          <p>Awards: Received "Scholarship to Meritorious Students of CCET Chandigarh" thrice (full fee waiver for first 3 years).</p>
+          <br>
+          <p>CGPA: 8.80, Rank: 2<sup>nd</sup></p>
+          <a class="bnt-more" href="https://github.com/Amol-Chaudhry/rank-second/blob/main/rank-second.pdf" target="_blank">Achievement</a>
+        </div>
+      </div>  
+  
+    </div>
+  </section>
+  
+   <!-- Projects -->
+   <section class="section theme" id="projects">
+    <div class="title">
+        <h1>Work Projects</h1>
+    </div>
+    <div class="projects-center container">
+        <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+            <a href="https://github.com/Amol-Chaudhry/layout-bleed-lines" target="_blank"><span><i class="fas fa-desktop"></i></span></a>
+
+            <h2><a href="https://github.com/Amol-Chaudhry/layout-bleed-lines" target="_blank" style = "color: white;">Quark Software Inc. : Layout Bleed Lines</a> </h2>
+            <p>
+              <a href="https://github.com/Amol-Chaudhry/layout-bleed-lines" target="_blank" style = "color: white;">Added this feature in QuarkXPress(Quark's flagship product) that allows users to specify bleed while creating a print layout. This was released in QuarkXpress 16.1 and has helped more than 18000 users. (Technologies: C++, Objective-C)</a> 
+            </p>
+        </div>
+        <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+          <a href="https://github.com/Amol-Chaudhry/embed-pictures" target="_blank"><span><i class="far fa-images"></i></span></a>
+
+          <h2><a href="https://github.com/Amol-Chaudhry/embed-pictures" target="_blank" style = "color: white;">Quark Software Inc. : Embed Pictures feature</a> </h2>
+          <p>
+            <a href="https://github.com/Amol-Chaudhry/embed-pictures" target="_blank" style = "color: white;">Developed and modified algorithms to give user the ability to embed high resolution images(for example, tif upto 500MB) and apply various images effects on those images in QuarkXpress. (Technologies: C++, Objective-C)</a> 
+          </p>
+      </div>
+      <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+        <a href="https://github.com/Amol-Chaudhry/above-and-beyond/blob/main/Certificate.jpg" target="_blank"><span><i class="fas fa-desktop"></i></span></a>
+
+        <h2><a href="https://github.com/Amol-Chaudhry/above-and-beyond/blob/main/Certificate.jpg" target="_blank" style = "color: white;">Quark Software Inc. : Stock Images Palette</a> </h2>
+        <p>
+          <a href="https://github.com/Amol-Chaudhry/above-and-beyond/blob/main/Certificate.jpg" target="_blank" style = "color: white;">Received above and beyond award for adding this feature which gives user the functionality to drag and drop images from various third party image providers within their document in QuarkXpress. (Technologies: C++, Objective-C, Angular, Microsoft WebView2)</a> 
+        </p>
+      </div>
+    </div>
+    <div class="title">
+      <h1>Other Projects</h1>
+  </div>
+  <div class="projects-center container">
+
+    <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+      <a href="https://github.com/Amol-Chaudhry/final-project-report-SDC" target="_blank"><span><i class="fas fa-car"></i></span></a>
+
+      <h2><a href="https://github.com/Amol-Chaudhry/final-project-report-SDC" target="_blank" style = "color: white;">Self Driving Car Model</a> </h2>
+      <p>
+        <a href="https://github.com/Amol-Chaudhry/final-project-report-SDC" target="_blank" style = "color: white;">A working model of car which used sensors and a camera to interact with the environment.It was based on the raspberry pi microcontroller and used OpenCV for image processing. (Technologies: C++)</a> 
+      </p>
+    </div>
+
+    <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+      <a href="https://github.com/Amol-Chaudhry/quadcopter" target="_blank"><span><i class="fas fa-helicopter"></i></span></a>
+
+      <h2><a href="https://github.com/Amol-Chaudhry/quadcopter" target="_blank" style = "color: white;">Quadcopter</a> </h2>
+      <p>
+        <a href="https://github.com/Amol-Chaudhry/quadcopter" target="_blank" style = "color: white;">A quadrotor drone having camera. Consists of Arduino microcontroller programmed with our own custom code as the flight controller. (Technologies: C++)</a> 
+      </p>
+    </div>
+  
+
+  <div class="projects" data-aos="fade-down" data-aos-duration="2000">
+    <a href="https://ultimate-color-game.herokuapp.com/" target="_blank"><span><i class="fas fa-desktop"></i></span></a>
+
+    <h2><a href="https://ultimate-color-game.herokuapp.com/" target="_blank" style = "color: white;">RGB-Color Guessing Game</a> </h2>
+    <p>
+      <a href="https://ultimate-color-game.herokuapp.com/" target="_blank" style = "color: white;">Do you often get confused between the RGB color matrix.This little game helps you learn and practice how different RGB values influence the resulting color. (Technologies:  HTML, CSS, JS)</a> 
+    </p>
+  </div>
+
+  </div>
+</section>
+
+    <!-- Contact -->
+  <section class="section contact" id="contact">
+      <div class="title">
+          <h1>Reach Out</h1>
+      </div>
+
+      <div class="contact-center container">
+          <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+              <h2>Worth it. Trust me.</h2>
+              <br>
+              <div>
+                  <span class="icon"><i class="fas fa-user"></i></span>
+                  <span class="content">
+                      <span>Amol Chaudhry</span>
+                  </span>
+              </div>
+
+              <div>
+                  <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                  <span class="content">
+                      <span>Chandigarh, India</span>
+                  </span>
+              </div>
+
+              <div>
+                  <span class="icon"><i class="fas fa-envelope"></i></span>
+                  <span class="content">
+                      <span>amolchaudhry9@gmail.com</span>
+                  </span>
+              </div>
+
+              <div>
+                  <span class="icon"><i class="fas fa-phone"></i></span>
+                  <span class="content">
+                      <span>+91 8146885949</span>
+                  </span>
+              </div>
+          </div>
+
+          <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+              <form class="gform pure-form pure-form-stacked form" method="POST" data-email="example@email.net"
+                  action="https://script.google.com/macros/s/AKfycbxz6seEQpYcshjRyK2VkmDdR11H5YilX6ruvNWLLg/exec">
+                  <!-- change the form action to your script url -->
+
+                  <div class="form-elements">
+                          <label for="name">Name: </label>
+                          <input id="name" name="name" placeholder="Your Name" />
+
+                          <label for="email">Your Email Address:</label>
+                          <input id="email" name="email" type="email" value="" required
+                              placeholder="Your Email" />
+
+                          <label for="message">Message: </label>
+                          <textarea id="message" name="message" rows="10"
+                              placeholder="Your message"></textarea>
+
+                      <button class="button-success pure-button button-xlarge" style="color:black; background-color: #dd9a05; font-size: 20px; border-radius: 10%; width: 60px;">
+                      Send</button>
+                  </div>
+                  <br>
+                  <div style="display:none" class="thankyou_message">
+                      <h2 style="color: black;"><em>Thank you</em> for contacting me! I will get back to you soon!</h2>
+                  </div>
+              </form>
+          </div>
+      </div>
+      </div>
+  </section>
+
+  <footer>
+    <p>Created By <span>Amol</span> with Love</p>
+  </footer>
+
+  <!-- <section id="footer">
+    <div class="footer container">
+      <h2 style = "margin-left: 25%; margin-right: 25%;">Made with Love by Amol</h2>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/amol-chaudhry/"
+            ><img
+              src="https://img.icons8.com/bubbles/linkedin.png"
+          /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Amol-Chaudhry"
+            ><img src="https://img.icons8.com/bubbles/github.png"
+          /></a>
+        </div>
+    </div>
+  </section> -->
+
+  <!-- Email JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Typeit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- Glidejs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Custom Script -->
+  <script src="index.js"></script>
+  <script src="experience.js"></script>
+</body>
+</html>
