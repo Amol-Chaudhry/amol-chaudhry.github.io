@@ -614,6 +614,7 @@ a.btn:active {
 
 .timeline {
   position: relative;
+  margin-bottom: 90px;
 }
 .timeline::before {
   top: 10%;
