@@ -10,7 +10,6 @@ $(function(){
   
         sr.reveal('.js--fadeInRight', {
           origin: 'right',
-          distance: '300px',
           easing: 'ease-in-out',
           duration: 800,
         });
@@ -19,14 +18,12 @@ $(function(){
         
         sr.reveal('.js--fadeInLeft', {
           origin: 'left',
-          distance: '300px',
             easing: 'ease-in-out',
           duration: 800,
         });
   
         sr.reveal('.js--fadeInRight', {
           origin: 'right',
-          distance: '300px',
           easing: 'ease-in-out',
           duration: 800,
         });
@@ -35,14 +32,12 @@ $(function(){
     
     sr.reveal('.js--fadeInLeft', {
           origin: 'left',
-          distance: '300px',
             easing: 'ease-in-out',
           duration: 800,
         });
   
         sr.reveal('.js--fadeInRight', {
           origin: 'right',
-          distance: '300px',
           easing: 'ease-in-out',
           duration: 800,
         });
