@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #fff;
@@ -26,7 +26,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
@@ -121,7 +121,7 @@ li {
 }
 
 .logo h1 span {
-  font-weight: bold;
+  font-weight: 500;
   color: #dd9a05;
 }
 
@@ -813,7 +813,7 @@ blockquote {
 
 .form input,
 .form textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
   padding: 1rem 0;
   text-indent: 1rem;
