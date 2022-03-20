@@ -788,6 +788,12 @@ blockquote {
 
 
 /* Contact */
+.contact {
+  padding: 5rem 0 7rem 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .contact-center {
   display: grid;
   grid-template-columns: 1fr 1fr;
