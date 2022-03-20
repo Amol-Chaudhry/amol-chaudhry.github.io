@@ -334,6 +334,11 @@ li {
   overflow-y: hidden;
 }
 
+.about {
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
 .about-center {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
