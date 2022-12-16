@@ -253,18 +253,38 @@ li {
   text-decoration: underline;
 }
 
-.hero a:link,
-.hero a:visited {
+.hero .contact-me-button a:link,
+.hero .contact-me-button a:visited {
   display: inline-block;
   padding: 0.8rem 2.5rem;
   border: 1px solid #dd9a05;
+  border-radius: 2px;
   background-color: #dd9a05;
   color: #fff;
   margin-top: 2rem;
 }
 
-.hero a:hover {
+.hero .contact-me-button a:hover {
   background-color: transparent;
+}
+
+.hero .fa-linkedin {
+  color: #dd9a05; 
+  font-size:20px; 
+  margin-right:3px;
+}
+
+.hero .fa-linkedin:hover {
+  color: #fff; 
+}
+
+.hero .fa-github {
+  color: #dd9a05; 
+  font-size:20px
+}
+
+.hero .fa-github:hover {
+  color: #fff; 
 }
 
 @media only screen and (max-width: 996px) {
